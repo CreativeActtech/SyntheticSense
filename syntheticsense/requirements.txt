@@ -1,0 +1,26 @@
+# SyntheticSense Requirements
+
+Core dependencies for SyntheticSense assistive technology system.
+Optimized for Raspberry Pi 5 (8GB RAM).
+
+## Core Dependencies
+numpy>=1.21.0
+opencv-python-headless>=4.5.0
+paho-mqtt>=1.6.0
+
+## Optional: YOLOv8 Detection (uncomment if needed)
+# ultralytics>=8.0.0
+
+## Optional: Hardware GPIO (for Raspberry Pi)
+# RPi.GPIO>=0.7.0
+# gpiozero>=1.6.0
+
+## System Monitoring
+psutil>=5.8.0
+
+## Development & Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+## Documentation
+# sphinx>=4.0.0
